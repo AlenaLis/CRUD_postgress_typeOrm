@@ -9,5 +9,5 @@ export class Task {
   name: string;
 
   @Column()
-  email: string;
+  discription: string;
 }

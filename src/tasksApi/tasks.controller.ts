@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Put, Param, Delete, NotFoundException } fr
 import { TaskService } from './tasks.service';
 import { Task } from './tasks.entity';
 
-@Controller('users')
+@Controller('tasks')
 export class TasksController {
   constructor(private readonly tasksService: TaskService) {}
 
